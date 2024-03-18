@@ -1,11 +1,11 @@
-#IR Assignment 2
+# IR Assignment 2
 
 
-###Q1. Image Feature Extraction
-`-Using python’s torch library, significant transformations are applied to the images loaded from the dataset.
-`-Afterwards, using the pre-trained ResNet model, features of all images have been extracted.
-`-These features are stored in a dictionary where keys are the links to the images and their corresponding values are the features that have been extracted.
-`-All the data from the dictionary is dumped into a pickle file labelled image_features.pkl
+### Q1. Image Feature Extraction
+-Using python’s torch library, significant transformations are applied to the images loaded from the dataset.
+-Afterwards, using the pre-trained ResNet model, features of all images have been extracted.
+-These features are stored in a dictionary where keys are the links to the images and their corresponding values are the features that have been extracted.
+-All the data from the dictionary is dumped into a pickle file labelled image_features.pkl
 
 
 ###Q2. Text Feature Extraction
