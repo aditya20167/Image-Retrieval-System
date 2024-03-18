@@ -22,6 +22,7 @@ The pipeline is as follows:
 - Extract features from the input image    
 - Compare these from the features of all images present in the dataset using cosine similarity as a measure.  
 - Cosine similarity is calculated using torch library.    
-- Results are then reverse sorted order (most similar to least similar).  
+- Results are then reverse sorted order (most similar to least similar).
+<a/>
 After this in a function to process the query, we use the above pipeline and show the desired output.
 
